@@ -1,3 +1,6 @@
 first row is actually an update
 
-print('hello')
+def greeting(name): 
+    print(f'hello{name}')
+
+greeting('David')
